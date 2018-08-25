@@ -1,0 +1,23 @@
+{
+  "name": "heroku",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/hone/heroku-buildpack-static"
+    },
+    {
+      "url": "heroku/php"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
